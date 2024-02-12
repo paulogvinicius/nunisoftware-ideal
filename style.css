@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+}
+
+body{
+    background-color: aqua;
+    margin: 0;
+}
+
+section#navegation {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div#nav{
+    padding-left: 100px;
+}
+
+div#nav img{
+    width: auto;
+    height: 10px;
+}
+
+section#home {
+    background-image: url(imagens/software.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 300px;
+
+
+}
+
+section#jobs {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+div#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div#project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: blueviolet;
+}
+
+div#proj {
+    padding-left: 100px;
+}
+
+div#proj img{
+    width: auto;
+    height: 100px;
+}
